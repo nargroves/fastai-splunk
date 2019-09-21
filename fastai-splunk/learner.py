@@ -1,11 +1,11 @@
 "`Learner` support for Splunk data."
-from ..torch_core import *
+from fastai.torch_core import *
 from .transform import *
 from .data import *
 from .models import *
-from ..basic_data import *
-from ..basic_train import *
-from ..train import ClassificationInterpretation
+from fastai.basic_data import *
+from fastai.basic_train import *
+from fastai.train import ClassificationInterpretation
 
 __all__ = ['splunk_learner']
 

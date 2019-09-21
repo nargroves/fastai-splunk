@@ -1,5 +1,5 @@
-from ..torch_core import *
-from ..layers import *
+from fastai.torch_core import *
+from fastai.layers import *
 
 __all__ = ['SplunkModel']
 

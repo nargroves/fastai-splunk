@@ -17,11 +17,11 @@ setuptools.setup(
     url='https://github.com/nargroves/fastai-splunk',
     packages=setuptools.find_packages(),
     python_requires=">=3.6",
-    install_requires=['fastai'],
+    install_requires=['fastai','splunk-sdk'],
     classifiers=[
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
-	'License :: OSI Approved :: Apache Software License',
+	    'License :: OSI Approved :: Apache Software License',
         'Natural Language :: English',
         'Programming Language :: Python :: 3.6',
         'Programming Language :: Python :: 3.7',

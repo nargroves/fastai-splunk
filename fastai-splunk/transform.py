@@ -1,5 +1,5 @@
 "Cleaning and feature engineering functions for structured data"
-from ..torch_core import *
+from fastai.torch_core import *
 from pandas.api.types import is_numeric_dtype
 from datetime import date, datetime
 import calendar
