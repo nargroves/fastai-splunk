@@ -1,6 +1,6 @@
 "Data loading pipeline for splunk support. Runs Splunk query -> .csv -> pandas DataFrame"
 from fastai.torch_core import *
-from .transform import *
+from fastai_splunk.transform import *
 from fastai.basic_data import *
 from fastai.data_block import *
 from pandas.api.types import is_numeric_dtype, is_categorical_dtype

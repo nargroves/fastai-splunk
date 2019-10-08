@@ -1,8 +1,8 @@
 "`Learner` support for Splunk data."
 from fastai.torch_core import *
-from .transform import *
-from .data import *
-from .models import *
+from fastai_splunk.transform import *
+from fastai_splunk.data import *
+from fastai_splunk.models import *
 from fastai.basic_data import *
 from fastai.basic_train import *
 from fastai.train import ClassificationInterpretation
